@@ -72,7 +72,7 @@ public abstract class Aplicacao implements Serializable {
 
     @NotNull(message = "O autor deve ser definido")
     @ManyToOne
-    @JoinColumn(name = "usuario", referencedColumnName = "id", nullable = false)
+    @JoinColumn(name = "autor", referencedColumnName = "id", nullable = false)
     private Autor autor;
 
     public void adicionarArquivo(Arquivo obj) {

@@ -128,4 +128,8 @@ public class Jogo extends Aplicacao implements Serializable {
     public Jogo() {
     }
 
+    public void setCategoria(String sdsada) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

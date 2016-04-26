@@ -26,9 +26,9 @@ public class PercistirCategoria {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("XucroModelo2.0PU");
         EntityManager em = emf.createEntityManager();
         Categoria c = new Categoria();
-        c.setNome("Tiro");
-        c.setDescricao("Categoria voltada a jogos de tiro");
-        c.setImagem("tiro.png");
+        c.setNome("luta");
+        c.setDescricao("Categoria voltada a jogos de luta");
+        c.setImagem("luta.png");
         c.setStatus(true);
         //VALIDAÇÃO
         Validator validador = Validation.buildDefaultValidatorFactory().getValidator();
